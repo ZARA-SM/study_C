@@ -317,3 +317,16 @@ void buble_sort(int arr[],int sz)
 		}
 	}
  }
+int main()
+{
+	int arr[]={10,9,8,7,6,5,4,3,2,1};
+	int sz=sizeof(arr)/sizeof(arr[0]); 
+//	printf("%d",sizeof(arr));
+	int i =0;
+	buble_sort(arr,sz);
+	for(i=0;i<sz;i++)
+	{
+		printf("%d\n",arr[i]);
+	}
+	
+}
